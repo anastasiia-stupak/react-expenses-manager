@@ -1,0 +1,28 @@
+.expense-list-item {
+	padding-top: 20px;
+	border-bottom: 2px solid $main-brown;
+
+	a {
+		color: $blue;
+		text-decoration: none;
+	}
+
+	transition: background-color 0.3s;
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	&:hover {
+		background-color: rgba($main-brown, 0.3);
+	}
+
+	@media (max-width: $tablet) {
+		a {
+			h1 {
+				font-size: 1.5rem;
+				font-weight: 700;
+			}
+		}
+	}
+}

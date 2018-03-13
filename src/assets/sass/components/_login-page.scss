@@ -1,0 +1,46 @@
+.login-page {
+	height: 100vh;
+	padding-top: 25vh;
+
+	background-image: url(/assets/images/login-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.login-page__box {
+	padding: 30px;
+	border: 2px solid $blue;
+	border-radius: 5px;
+
+	background-color: rgba($blue, 0.6);
+
+	color: $main-brown;
+}
+
+.login-page__title, .login-page__subtitle {
+	text-align: center;
+}
+
+.login-page__title {
+	font-family: BebasNeue, sans-serif;
+	text-transform: uppercase;
+}
+
+.login-page__subtitle {
+	font-size: 1.3rem;
+}
+
+.login-page__btn {
+	width: 100%;
+	background-color: $main-brown;
+
+	color: $blue;
+
+	white-space: normal;
+
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: lighten($main-brown, 10%);
+	}
+}

@@ -1,0 +1,21 @@
+.expense-list-filters {
+	padding: 1rem 0;
+	padding-left: 10%;
+	background-color: rgba($blue, 0.3);
+
+	@media (max-width: $large-screen) {
+		 padding-left: 0;
+		.expense-list-filters__item {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.expense-list-filters__controls {
+	box-sizing: border-box;
+	height: 50px;
+	padding: 5px;
+	border: none;
+}

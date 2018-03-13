@@ -1,0 +1,33 @@
+.expense-list {
+	border: 2px solid $main-brown;
+	margin-bottom: 2rem;
+}
+
+.expense-list__header {
+	border-bottom: 2px solid $main-brown;
+	color: $blue;
+	font-size: 1.5rem;
+	font-weight: 700;
+
+	p {
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	@media (max-width: $tablet) {
+		font-size: 1rem;
+	}
+}
+
+.expense-list__message {
+	display: flex;
+	justify-content: center;
+
+	p {
+		margin: 0;
+		padding: 10px 0;
+
+		color: $blue;
+		font-weight: bold;
+	}
+}

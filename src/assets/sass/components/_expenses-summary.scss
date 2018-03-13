@@ -1,0 +1,30 @@
+.expenses-summary {
+	padding: 2rem 1rem 1.5rem 1rem;
+	background: rgba($light-brown, 0.5);
+
+	color: $blue;
+
+	@media (max-width: $tablet) {
+		> * {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+.expenses-summary__title,
+.expenses-summary__subtitle {
+	span {
+		color: $main-brown;
+	}
+}
+
+.expenses-summary__add-button {
+	margin-top: 1rem;
+	background-color: $main-green;
+
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: lighten($main-green, 5%);
+	}
+}
