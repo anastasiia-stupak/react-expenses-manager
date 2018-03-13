@@ -6,7 +6,7 @@
   "scripts": {
     "prod": "cross-env NODE_ENV=production webpack --color",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --color",
-    "server": "node server/server.js",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run prod"
   },
   "keywords": [],
