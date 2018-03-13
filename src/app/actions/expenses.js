@@ -29,9 +29,7 @@ const defaultExpenseData = {
 export const startAddExpense = (expenseData = defaultExpenseData) => {
 	return (dispatch, getState) => {
 			const uid = getState().auth.uid;
-			console.log(uid);
-			console.log(expenseData);
-
+			
 			database
 				.ref(`users/${uid}/expenses`)
 				.push(expenseData)
