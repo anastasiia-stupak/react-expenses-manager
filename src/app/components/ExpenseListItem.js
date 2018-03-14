@@ -8,7 +8,7 @@ function ExpenseListItem({id, description, note, createdAt, amount}) {
 				<Link to={`edit/${id}`}>
 					<div className="row">
 						<div className="col-6">
-							<h1>{description}</h1>
+							<h1>{description} <img className="expense-list-item__edit-icon" src="/assets/images/edit.png" alt="edit icon"/></h1>
 							<p>{note}</p>
 							<p>{moment(createdAt).format('MMMM Do, YYYY')}</p>
 						</div>

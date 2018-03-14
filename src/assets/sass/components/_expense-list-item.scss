@@ -26,3 +26,12 @@
 		}
 	}
 }
+
+.expense-list-item__edit-icon {
+	height: 30px;
+	margin-bottom: 10px;
+
+	@media (max-width: $xs-small) {
+		height: 20px;
+	}
+}
