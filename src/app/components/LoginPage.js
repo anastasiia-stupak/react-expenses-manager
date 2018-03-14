@@ -9,7 +9,7 @@ function LoginPage({ startLogin }) {
 		<div className="container-fluid login-page">
 			<div className="row justify-content-center">
 				<div className="col-12 col-sm-6 col-md-5 login-page__box">
-					<h3 className="login-page__title">Expensify Manager</h3>
+					<h3 className="login-page__title">Expenses Manager</h3>
 					<p className="login-page__subtitle">It's time to take your expenses under control</p>
 
 					<button
